@@ -6,7 +6,7 @@ export default defineClientConfig({
     Components.forEach((CMP) => app.component(CMP.name, CMP));
 
     if (!__VUEPRESS_SSR__) {
-      const DataV = await import('../../es');
+      const DataV = await import('../../dist/es');
       app.use(DataV.default);
     }
   },

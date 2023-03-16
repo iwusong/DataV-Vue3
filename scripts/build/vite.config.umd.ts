@@ -18,7 +18,7 @@ export default defineConfig({
       external: ['vue'],
 
       output: {
-        dir: 'umd',
+        dir: 'dist/umd',
         format: 'umd',
         name: 'DataV',
         entryFileNames: 'datav.umd.js',

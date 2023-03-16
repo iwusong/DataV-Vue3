@@ -33,11 +33,11 @@ export default defineConfig({
 
       output: [
         {
-          dir: 'es',
+          dir: 'dist/es',
           format: 'es',
         },
         {
-          dir: 'cjs',
+          dir: 'dist/cjs',
           format: 'cjs',
         },
       ],
@@ -51,7 +51,7 @@ export default defineConfig({
     vueJsx(),
     dts({
       include: ['src'],
-      outputDir: 'es',
+      outputDir: 'dist/es',
     }),
   ],
   define: {

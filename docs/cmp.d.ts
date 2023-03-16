@@ -1,4 +1,4 @@
-import type * as DataV from '../es/index';
+import type * as DataV from '../dist/es/index';
 import type { defineComponent } from 'vue';
 
 declare global {
